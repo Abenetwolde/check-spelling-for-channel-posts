@@ -1,0 +1,29 @@
+name: English
+help: |
+  @check_my_text_bot checks spelling when added to a channel. Just add @check_my_text_bot as an admin to your channel, write /setup 1234567 (where 1234567 is the id or @username of your channel) here and get updates in @check_my_text_bot whenever it finds typos or spelling errors.
+
+  /help — command list
+  /setup 1234567 — turn on @check_my_text_bot on the channel with the specified id or @username
+  /disable 1234567 — turn off the notifications from @check_my_text_bot for the channel with the specified id or @username
+  /glvrd — toggle glvrd.ru (only works with Russian)
+  /language — change language
+  /channels — list channels with spellcheck notifications enabled
+  /getId — get id of this chat (works on channels too)
+  /english — toggle English spellcheck
+
+
+language: Please, select the language.
+language_selected: '@check_my_text_bot now speaks English.'
+glvrd_on: Glavred on.
+glvrd_off: Glavred off.
+no_channel_found: "Sorry, looks like the channel with the specified id <b>${identificator}</b> doesn't use @check_my_text_bot yet. Please add @check_my_text_bot as an admin to <b>${identificator}</b> first. Tip: you didn't forget <code>@</code> in the @username, did you?"
+not_an_admin: Sorry, but you should be a channel administrator to get the data from it.
+setup_success: Great! Now you will receive a message here in case @check_my_text_bot finds any mistakes in <b>${identificator}</b> texts.
+no_channels: You don't have any channels yet, please use /setup to setup your first one.
+setup_help: Please, use format <code>/setup 1234567</code> or <code>/setup @username</code> when adding a new channel.
+disable_help: Please, use format <code>/disable 1234567</code> when disabling a channel. You can see the list of enabled channels with /channels.
+disable_fail: Looks like you don't have a channel enabled with the identifier <b>${identificator}</b>. Please, check the list of enabled channels with the /channels command.
+disable_success: Channel <b>${identificator}</b> has been disabled.
+not_a_channel: Unfortunately, it is not a channel.
+english_on: English spell check on.
+english_off: English spell check off.
